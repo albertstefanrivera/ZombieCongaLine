@@ -1,0 +1,22 @@
+﻿Build started 2/10/2016 4:50:52 AM.
+     1>Project "C:\GAMEDEV\here\ZombieCongaLine\proj.win32\ZombieCongaLine.vcxproj" on node 3 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\GAMEDEV\here\ZombieCongaLine\proj.win32\Debug.win32\ZombieCongaLine.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\GAMEDEV\here\ZombieCongaLine\proj.win32\Debug.win32\ /LIBPATH:C:\GAMEDEV\here\ZombieCongaLine\proj.win32\Debug.win32\ opengl32.lib glew32.lib libzlib.lib libwebp.lib libiconv.lib freetype.lib winmm.lib ws2_32.lib libbox2d.lib libSpine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\GAMEDEV\here\ZombieCongaLine\proj.win32\Debug.win32\ZombieCongaLine.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\GAMEDEV\here\ZombieCongaLine\proj.win32\Debug.win32\ZombieCongaLine.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\main.obj
+         C:\GAMEDEV\here\ZombieCongaLine\proj.win32\Debug.win32\libcocos2d.lib
+         C:\GAMEDEV\here\ZombieCongaLine\proj.win32\Debug.win32\libSpine.lib
+         C:\GAMEDEV\here\ZombieCongaLine\proj.win32\Debug.win32\libbox2d.lib
+         ZombieCongaLine.vcxproj -> C:\GAMEDEV\here\ZombieCongaLine\proj.win32\Debug.win32\ZombieCongaLine.exe
+       CustomBuildStep:
+         if not exist "C:\GAMEDEV\here\ZombieCongaLine\proj.win32\Debug.win32\" mkdir "C:\GAMEDEV\here\ZombieCongaLine\proj.win32\Debug.win32\"
+         xcopy "C:\GAMEDEV\here\ZombieCongaLine\proj.win32\..\Resources" "C:\GAMEDEV\here\ZombieCongaLine\proj.win32\Debug.win32\" /D /E /I /F /Y
+               
+         :VCEnd
+         0 File(s) copied
+     1>Done Building Project "C:\GAMEDEV\here\ZombieCongaLine\proj.win32\ZombieCongaLine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.36
